@@ -1,8 +1,8 @@
-function makeTransaction(quantity, pricePerDroid) {
-  const totalPrice = quantity * pricePerDroid;
-  return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
-}
+// Запропонуйте користувачу ввести число за допомогою prompt().
+// Збережіть введене значення у змінну number.
+// Перевірте, чи дорівнює змінна number числу 10:
+//    Якщо так – виведіть повідомлення 'Вірно' у alert().
+//    Якщо ні – виведіть 'Невірно'.
 
-console.log(makeTransaction(5, 3000)); // "You ordered 5 droids worth 15000 credits!"
-console.log(makeTransaction(3, 1000)); // "You ordered 3 droids worth 3000 credits!"
-console.log(makeTransaction(10, 500)); // "You ordered 10 droids worth 5000 credits!"
+// Підказка: prompt завжди повертає рядок (String), тому перед перевіркою
+// перетворіть значення на число за допомогою Number().

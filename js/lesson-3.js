@@ -1,10 +1,9 @@
-function getElementWidth(content, padding, border) {
-  const a = Number.parseFloat(content);
-  const b = Number.parseFloat(padding);
-  const c = Number.parseFloat(border);
-  return a + b * 2 + c * 2;
-}
-
-console.log(getElementWidth('50px', '8px', '4px')); // 74
-console.log(getElementWidth('60px', '12px', '8.5px')); // 101
-console.log(getElementWidth('200px', '0px', '0px')); // 200
+// Змінна num може набувати 4 значення: '1', '2', '3' або '4'
+// (запитуй це значення у користувача через prompt).
+// Якщо вона має значення '1', то у змінну result запишіть 'зима',
+// якщо має значення '2' - 'весна' і так далі.
+// Розв'яжіть завдання через switch-case.
+// Не забудьте про дефолтне значення, на випадок, якщо користувач
+// введе в prompt щось інше. В такому випадку result має набувати значення:
+// "Вибачте, але ви маєте ввести значення від 1 до 4 включно".
+// Значення змінної result виведіть в консоль.
